@@ -17,3 +17,6 @@ print(d)  # 10
 print(t)  # 15
 
 # Each closure has its own captured 'factor'
+# print(double.__closure__)       # Tuple of cell objects
+# print(double.__closure__[0].cell_contents)  # 2  factor
+# print(double.__closure__[1].cell_contents)  # 5  x
